@@ -3,7 +3,7 @@
   // a sample of calculator project 
 int main()
 {
-printf("   🌟🌟🌟🌟 SIMPLE CALCULATOR 🌟🌟🌟🌟\n");
+printf("        SIMPLE CALCULATOR     \n");
 printf("----------------------------------------\n\n");
 // chhode first number,operator (in which you perform ) 
 //and second number as a Input
@@ -38,6 +38,6 @@ printf("----------------------------------------");
     printf("   Invalid Operator! please Try again");
     }
     printf("\n----------------------------------------");
-    printf("\n\n 🌟🌟🌟🌟CALCULATIONS SUCESSFUL🌟🌟🌟🌟 ");
+    printf("\n\n     CALCULATIONS SUCESSFUL     ");
     return 0;
 }
