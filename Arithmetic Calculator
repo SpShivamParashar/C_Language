@@ -1,1 +1,43 @@
-
+#include<stdio.h>
+  // I made a simple calculator project 
+  // a sample of calculator project 
+int main()
+{
+printf("   🌟🌟🌟🌟 SIMPLE CALCULATOR 🌟🌟🌟🌟\n");
+printf("----------------------------------------\n\n");
+// chhode first number,operator (in which you perform ) 
+//and second number as a Input
+    float a,b,c;
+    char ch;
+    printf("     1. Enter First Number => ");
+    scanf("%f",&a);
+    printf("     2. Enter choice your operator => ");
+    scanf(" %c",&ch);
+    printf("     3. Enter Second Number => ");
+    scanf("%f",&b);
+printf("----------------------------------------");
+// using switch case and output on display 
+    switch (ch){
+    case '+':
+    c=a+b;
+    printf("\n         Addition => %.2f",c);
+    break;
+    case '-':
+    c=a-b;
+    printf("\n         Substraction => %.2f",c);
+    break;
+   case '*':
+    c=a*b;
+    printf("\n         Multiplication => %.2f",c);
+    break;
+   case '/':
+    c=a/b;
+    printf("\n         Division => %.2f",c);
+    break;
+    default :
+    printf("   Invalid Operator! please Try again");
+    }
+    printf("\n----------------------------------------");
+    printf("\n\n 🌟🌟🌟🌟CALCULATIONS SUCESSFUL🌟🌟🌟🌟 ");
+    return 0;
+}
